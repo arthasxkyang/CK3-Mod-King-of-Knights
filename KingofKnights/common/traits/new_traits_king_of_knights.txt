@@ -1,0 +1,118 @@
+the_king_of_knights = {
+    index = 35701
+    #荣誉特质
+    fame = yes
+    #骑士上限
+    knight_limit = 768
+    #永生
+    immortal = yes
+    set_immortal_age = 24
+    #每月控制增长
+    monthly_county_control_change_factor = 0.9
+    #勇武增加
+    prowess = 20
+    #每月首都发展度
+    character_capital_county_monthly_development_growth_add = 30
+    #建筑速度
+    build_speed = -0.9
+    holding_build_speed = -0.9
+    #兵士规模
+    men_at_arms_limit = 30
+    men_at_arms_cap = 15
+	
+    desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_the_king_of_knights_desc
+			}
+			desc = trait_the_king_of_knights_character_desc
+		}
+	}
+}
+
+the_king_of_ttk = {
+    index = 35702
+    #指挥特质
+    commander = yes
+    #进攻杀伤强化
+    enemy_hard_casualty_modifier = 0.75
+    min_combat_roll = 4
+	max_combat_roll = 6
+    #防御减伤强化
+	hard_casualty_modifier = -0.75
+    #补给倍率增加
+    supply_duration = 10
+    #围攻时间
+    siege_phase_time = -0.9
+    #涉水惩罚关闭
+    no_water_crossing_penalty = yes
+    #敌方防御优势
+    enemy_terrain_advantage = -0.5
+    #地形强化
+    drylands_advantage = 5
+	desert_advantage = 5
+	desert_mountains_advantage = 5
+	oasis_advantage = 5
+    desert_cancel_negative_supply = yes
+    jungle_advantage = 6
+	jungle_cancel_negative_supply = yes
+	jungle_attrition_mult = -0.5
+    farmlands_advantage = 4
+	plains_advantage = 4
+	steppe_advantage = 4
+    hills_advantage = 4
+	mountains_advantage = 4
+	wetlands_advantage = 4
+    forest_advantage = 5
+	taiga_advantage = 5
+    #组织强化
+    movement_speed = 1
+	retreat_losses = -0.5
+
+    desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_the_king_of_ttk_desc
+			}
+			desc = trait_the_king_of_ttk_character_desc
+		}
+	}
+}
+
+kingsalbino = {
+	index = 35703
+	good = yes
+    opposites = {
+        albino
+    }
+	#如果genetic设置为yes 就按显隐性基因的模式继承
+	#genetic = yes
+	physical = yes
+    #指定遗传给子女的几率
+    inherit_chance = 100
+	same_opinion = 10
+    #恐怖值
+	dread_baseline_add = 50
+    #生育率
+    fertility = 0.9
+    health = 0.6
+    #近亲概率
+    inbreeding_chance = -0.5
+    desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_kingsalbino_desc
+			}
+			desc = trait_kingsalbino_character_desc
+		}
+	}
+}

@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+ trait_the_king_of_knights: "绝骑神"
+ trait_the_king_of_knights_desc: "该角色被称为骑士之王。"
+ trait_chaste_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]被赐予了骑士之王的祝福。"
+ trait_the_king_of_ttk: "历战之骑士"
+ trait_the_king_of_ttk_desc: "该角色身经百战，骑士之王的圣印强化了其麾下的军团。"
+ trait_the_king_of_ttk_desc_character: "[ROOT.GetCharacter.GetFirstNameNoTooltip]身经百战，骑士之王的圣印强化了[ROOT.GetCharacter.GetFirstNameNoTooltip]麾下的军团。"
+ trait_kingsalbino: "圆环传承"
+ trait_kingsalbino_desc: "该角色传承了圆环之秘的血脉，赤瞳白发是血脉的一大特征。"
+ trait_kingsalbino_desc_character: "[ROOT.GetCharacter.GetFirstNameNoTooltip]传承了圆环之秘的血脉，赤瞳白发是血脉的一大特征。"
+# trait_: ""
+# trait__desc: ""
+# trait__desc_character: ""
+#trait_chaste_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]不喜欢亲密的接触，这使其避开了肉体的诱惑。"the_king_of_ttk
